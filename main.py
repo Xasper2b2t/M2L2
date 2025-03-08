@@ -1,7 +1,7 @@
 import telebot
 import random
 import os
-bot = telebot.TeleBot("7297111027:AAFICI4LP_lDNxAHKA7ZWoP62tDmlkzt90A")
+
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     bot.reply_to(message, "Привет! Я твой Telegram бот по правильной сортировке мусора. Напиши что-нибудь!")
